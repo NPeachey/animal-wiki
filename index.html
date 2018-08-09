@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>How much do you love animals?!</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <form id="submission">
+      <div class="form-group">
+        <label for="Animal">Choose your animal</label>
+          <input type="text" id="animalInput" class="form-control">
+          <br><button type="submit" id="btn btn-info">Submit your animal type (as long as it's sloth, turtle, or hedgehog)</button>
+
+
+          <div id="hedgehog">
+            <img src="img/sonic.jpeg" alt="picture of a hedgehog" id="hedgehogPic">
+            <br><button class="btn btn-warning" id="hedgehogButton">Tell me more!</button>
+            <div id="hedgehog2">
+              <h3>A hedgehog is any of the spiny mammals of the subfamily Erinaceinae, in the eulipotyphlan family Erinaceidae.</h3>
+            </div>
+          </div>
+
+
+          <div id="sloth">
+            <img src="img/sloth 1_1.png" alt="image of a baby sloth" id="slothPic">
+            <br><button class="btn btn-warning" id="slothButton">Tell me more!</button>
+              <div id="sloth2">
+                <h3>Sloths are arboreal mammals noted for slowness of movement and for spending most of their lives hanging upside down in the trees.</h3>
+              </div>
+          </div>
+
+
+          <div id="turtle">
+            <img src="img/turtle.jpg" alt="image of a turtle" id="turtlePic"></button>
+            <br><button class="btn btn-warning" id="turtleButton">Tell me more!</button>
+            <div id="turtle2">
+              <h3>Turtles are diapsids of the order Testudines (or Chelonii) characterized by a special bony or cartilaginous shell developed from their ribs and acting as a shield.</h3>
+            </div>
+          </div>
+
+
+          <div id="noanimal">
+            <img src="img/CYIBQhMWAAAjLOE.jpg" alt="image of a sad animal">
+            <p>Please refresh and try again.</p>
+          </div>
+      </div>
+    </form>
+  </body>
+</html>
